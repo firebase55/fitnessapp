@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#303030"
+    android:layout_height="match_parent"
+    tools:context=".SplshScrean">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/icon_id"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/icon"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/icon_id"
+        android:layout_marginTop="10dp"
+        android:text="Fitness APP"
+        android:gravity="center"
+        android:textColor="#F8F5F5"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
+</RelativeLayout>

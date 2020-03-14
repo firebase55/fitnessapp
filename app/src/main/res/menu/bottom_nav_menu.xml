@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/video"
+        android:title="@string/video" />
+
+    <item
+        android:id="@+id/fitness"
+        android:icon="@drawable/fitness"
+        android:title="@string/fitness" />
+
+    <item
+        android:id="@+id/diet"
+        android:icon="@drawable/diet"
+        android:title="@string/diet" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile" />
+
+</menu>
