@@ -5,8 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="black">#090708</color>
     <color name="blue">#3F51B5</color>
-    <color name="lowwhite">#C2BCBE</color>
-
+    <color name="lowwhite">#E4DDDF</color>
+<color name="cardview_Color">#00E676</color>
 
 
 </resources>
