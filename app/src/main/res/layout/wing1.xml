@@ -4,57 +4,158 @@
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent">
-<ImageView
-    android:layout_width="match_parent"
-    android:background="@drawable/wings"
-    android:id="@+id/layout1"
-    android:layout_height="230dp" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:layout_height="wrap_content">
-          <androidx.cardview.widget.CardView
-              android:layout_width="fill_parent"
-              android:layout_marginRight="4dp"
-              android:layout_marginLeft="4dp"
-              android:id="@+id/wc"
-              android:layout_height="fill_parent">
-              <TextView
-                  android:layout_width="match_parent"
-                  android:text="@string/wingsdetails"
-                  android:textStyle="bold"
-                  android:textColor="#000"
-                  android:layout_marginLeft="5dp"
-                  android:layout_marginRight="5dp"
-                  android:textSize="16sp"
-                  android:gravity="center"                  android:layout_height="match_parent" />
+            android:layout_height="match_parent">
 
-
-          </androidx.cardview.widget.CardView>
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/chn"
-                android:layout_height="wrap_content" />
-            <TextView
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/wings" />
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:text="@string/chen"
-                android:textStyle="bold"
-                android:textColor="#000"
+                android:layout_marginTop="-21dp"
+                android:background="#00E676"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="80dp">
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:layout_marginTop="20sp"
+                    android:background="@drawable/wings"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:text="Chin ups"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="240dp"
+                    android:textStyle="bold"
+                    android:textColor="#651FFF"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="4dp"
+                    android:textSize="20sp"
+                    android:text="12 Repies 3 Time"
+                    android:gravity="center"
+                    android:layout_height="70dp" />
+            </RelativeLayout>
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_marginRight="5dp"
+               app:cardCornerRadius="10dp"
+               app:cardBackgroundColor="#E9E9E9"
+               android:layout_marginLeft="5dp"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="4dp"
+                   android:layout_marginRight="4dp"
+                   android:padding="10dp"
+                   android:text="@string/chen"
+                   android:textColor="@color/blue"
+                   android:textSize="16sp"
+                   android:textStyle="bold" />
+           </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:background="#E9E9E9"
                 android:layout_marginRight="5dp"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/c1" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/c2" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Close chin up"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="50dp" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="#E9E9E9"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:padding="10dp"
+                        android:text="@string/chen"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:background="#E9E9E9"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/h1" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/h2" />
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
-
-
-
-
-
 </LinearLayout>
